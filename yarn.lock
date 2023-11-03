@@ -5730,10 +5730,10 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
   "version" "17.0.2"
 
-"react-native-omantel_library_sample@^0.3.0":
-  "integrity" "sha512-bqHQk1mo6mOjKEVJTp44nV3ebejfu8cYZiTlKE7vpcYLLSpurR6fDKeFyQ0uvkRbIS1myvqU1EuW/b6HzJuJxg=="
-  "resolved" "https://registry.npmjs.org/react-native-omantel_library_sample/-/react-native-omantel_library_sample-0.3.0.tgz"
-  "version" "0.3.0"
+"react-native-omantel_library_sample@^0.3.8":
+  "integrity" "sha512-Rc6Uf08gZji5asDQ5M8lCgy6rJwSlVk0hTMB3be5uBHjxD2zEBGYaparux9qp2HjoNAI62JGkKKMAbdvTMhegQ=="
+  "resolved" "https://registry.npmjs.org/react-native-omantel_library_sample/-/react-native-omantel_library_sample-0.3.8.tgz"
+  "version" "0.3.8"
 
 "react-native@*", "react-native@0.72.4":
   "integrity" "sha512-+vrObi0wZR+NeqL09KihAAdVlQ9IdplwznJWtYrjnQ4UbCW6rkzZJebRsugwUneSOKNFaHFEo1uKU89HsgtYBg=="

@@ -17,7 +17,7 @@ import {
 import {
   Colors,
 } from 'react-native/Libraries/NewAppScreen';
-import {loadGame} from 'react-native-omantel_library_sample'
+import { loadGame, DailyChallenge } from 'react-native-omantel_library_sample'
 
 
 function App(): JSX.Element {
@@ -32,14 +32,16 @@ function App(): JSX.Element {
   }
 
   return (
-    <SafeAreaView style={{...backgroundStyle,...styles.container}}>
+    <SafeAreaView style={{ ...backgroundStyle, ...styles.container }}>
       <TouchableOpacity onPress={() => {
-                //test();
-                loadGame();
-            }} style={{ alignItems: 'center', backgroundColor: 'dodgerblue', borderRadius: 5, marginTop: 50, padding: 10, width: '50%' }}>
-                <Text style={{ color: 'white', fontSize: 20 }}>Load Game</Text>
-            </TouchableOpacity>
-            
+        //test();
+        loadGame();
+      }} style={{ alignItems: 'center', backgroundColor: 'dodgerblue', borderRadius: 5, marginTop: 50, padding: 10, width: '50%' }}>
+        <Text style={{ color: 'white', fontSize: 20 }}>Load Game</Text>
+      </TouchableOpacity>
+
+      <DailyChallenge />
+
     </SafeAreaView>
   );
 }
@@ -61,10 +63,10 @@ const styles = StyleSheet.create({
   highlight: {
     fontWeight: '700',
   },
-  container:{
-    alignItems:'center',
-    flex:1,
-    justifyContent:'center',
+  container: {
+    alignItems: 'center',
+    flex: 1,
+    justifyContent: 'center',
   }
 });
 
